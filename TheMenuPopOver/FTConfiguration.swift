@@ -1,0 +1,43 @@
+//
+//  FTConfiguration.swift
+//  TheMenuPopOver
+//
+//  Created by Boty Thieng on 8/14/23.
+//
+
+import UIKit
+
+public class FTConfiguration: NSObject {
+
+    public var menuRowHeight = FT.DefaultMenuRowHeight
+    public var menuWidth = FT.DefaultMenuWidth
+    public var borderColor = FT.DefaultTintColor
+    public var borderWidth = FT.DefaultBorderWidth
+    public var backgoundTintColor = FT.DefaultTintColor
+    public var cornerRadius = FT.DefaultCornerRadius
+    public var menuSeparatorColor = UIColor.lightGray
+    public var menuSeparatorInset = UIEdgeInsets(top: 0, left: FT.DefaultCellMargin, bottom: 0, right: FT.DefaultCellMargin)
+    public var cellSelectionStyle = UITableViewCell.SelectionStyle.none
+    /// v1
+    public var globalShadow = false
+    public var shadowAlpha: CGFloat = 0.6
+    public var localShadow = false
+    /// v2 shadow
+    public var globalShadowAdapter: ((_ backgroundView: UIView) -> Void)?
+    public var localShadowAdapter: ((_ backgroundLayer: CAShapeLayer) -> Void)?
+    
+    // cell configs
+    public var textColor: UIColor = UIColor.white
+    public var textFont: UIFont = UIFont.systemFont(ofSize: 14)
+    public var textAlignment: NSTextAlignment = NSTextAlignment.left
+    public var ignoreImageOriginalColor = false
+    public var menuIconSize: CGFloat = FT.DefaultMenuIconSize
+    
+    public var selectedTextColor: UIColor = UIColor.darkText
+    public var selectedCellBackgroundColor: UIColor = UIColor.red
+    
+    /// indexes that will not dismiss on selection
+    public var noDismissalIndexes: [Int]?
+    
+}
+
