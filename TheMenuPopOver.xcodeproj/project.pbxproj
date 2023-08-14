@@ -19,6 +19,12 @@
 		50E6C9E72A8A232B004785F8 /* FTPopOverMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9E62A8A232B004785F8 /* FTPopOverMenuModel.swift */; };
 		50E6C9E92A8A2340004785F8 /* UIControl+Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9E82A8A2340004785F8 /* UIControl+Point.swift */; };
 		50E6C9EB2A8A2397004785F8 /* UIScreen+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9EA2A8A2397004785F8 /* UIScreen+Frame.swift */; };
+		50E6C9F32A8A28AF004785F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9F22A8A28AF004785F8 /* AppDelegate.swift */; };
+		50E6C9F52A8A28AF004785F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9F42A8A28AF004785F8 /* SceneDelegate.swift */; };
+		50E6C9F72A8A28AF004785F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9F62A8A28AF004785F8 /* ViewController.swift */; };
+		50E6C9FA2A8A28AF004785F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E6C9F82A8A28AF004785F8 /* Main.storyboard */; };
+		50E6C9FC2A8A28B1004785F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E6C9FB2A8A28B1004785F8 /* Assets.xcassets */; };
+		50E6C9FF2A8A28B1004785F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E6C9FD2A8A28B1004785F8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,14 @@
 		50E6C9E62A8A232B004785F8 /* FTPopOverMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPopOverMenuModel.swift; sourceTree = "<group>"; };
 		50E6C9E82A8A2340004785F8 /* UIControl+Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Point.swift"; sourceTree = "<group>"; };
 		50E6C9EA2A8A2397004785F8 /* UIScreen+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Frame.swift"; sourceTree = "<group>"; };
+		50E6C9F02A8A28AF004785F8 /* TheMenuPopOverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMenuPopOverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E6C9F22A8A28AF004785F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E6C9F42A8A28AF004785F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50E6C9F62A8A28AF004785F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E6C9F92A8A28AF004785F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E6C9FB2A8A28B1004785F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E6C9FE2A8A28B1004785F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E6CA002A8A28B1004785F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50E6C9ED2A8A28AF004785F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +92,7 @@
 			children = (
 				50E6C9C22A8A220E004785F8 /* TheMenuPopOver */,
 				50E6C9CE2A8A220E004785F8 /* TheMenuPopOverTests */,
+				50E6C9F12A8A28AF004785F8 /* TheMenuPopOverDemo */,
 				50E6C9C12A8A220E004785F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +102,7 @@
 			children = (
 				50E6C9C02A8A220E004785F8 /* TheMenuPopOver.framework */,
 				50E6C9CA2A8A220E004785F8 /* TheMenuPopOverTests.xctest */,
+				50E6C9F02A8A28AF004785F8 /* TheMenuPopOverDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +130,20 @@
 				50E6C9CF2A8A220E004785F8 /* TheMenuPopOverTests.swift */,
 			);
 			path = TheMenuPopOverTests;
+			sourceTree = "<group>";
+		};
+		50E6C9F12A8A28AF004785F8 /* TheMenuPopOverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50E6C9F22A8A28AF004785F8 /* AppDelegate.swift */,
+				50E6C9F42A8A28AF004785F8 /* SceneDelegate.swift */,
+				50E6C9F62A8A28AF004785F8 /* ViewController.swift */,
+				50E6C9F82A8A28AF004785F8 /* Main.storyboard */,
+				50E6C9FB2A8A28B1004785F8 /* Assets.xcassets */,
+				50E6C9FD2A8A28B1004785F8 /* LaunchScreen.storyboard */,
+				50E6CA002A8A28B1004785F8 /* Info.plist */,
+			);
+			path = TheMenuPopOverDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +196,23 @@
 			productReference = 50E6C9CA2A8A220E004785F8 /* TheMenuPopOverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		50E6C9EF2A8A28AF004785F8 /* TheMenuPopOverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E6CA032A8A28B1004785F8 /* Build configuration list for PBXNativeTarget "TheMenuPopOverDemo" */;
+			buildPhases = (
+				50E6C9EC2A8A28AF004785F8 /* Sources */,
+				50E6C9ED2A8A28AF004785F8 /* Frameworks */,
+				50E6C9EE2A8A28AF004785F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheMenuPopOverDemo;
+			productName = TheMenuPopOverDemo;
+			productReference = 50E6C9F02A8A28AF004785F8 /* TheMenuPopOverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,6 +227,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					50E6C9C92A8A220E004785F8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					50E6C9EF2A8A28AF004785F8 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -192,6 +249,7 @@
 			targets = (
 				50E6C9BF2A8A220E004785F8 /* TheMenuPopOver */,
 				50E6C9C92A8A220E004785F8 /* TheMenuPopOverTests */,
+				50E6C9EF2A8A28AF004785F8 /* TheMenuPopOverDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +266,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E6C9EE2A8A28AF004785F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E6C9FF2A8A28B1004785F8 /* LaunchScreen.storyboard in Resources */,
+				50E6C9FC2A8A28B1004785F8 /* Assets.xcassets in Resources */,
+				50E6C9FA2A8A28AF004785F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +306,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50E6C9EC2A8A28AF004785F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E6C9F72A8A28AF004785F8 /* ViewController.swift in Sources */,
+				50E6C9F32A8A28AF004785F8 /* AppDelegate.swift in Sources */,
+				50E6C9F52A8A28AF004785F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -247,6 +325,25 @@
 			targetProxy = 50E6C9CC2A8A220E004785F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E6C9F82A8A28AF004785F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E6C9F92A8A28AF004785F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E6C9FD2A8A28B1004785F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E6C9FE2A8A28B1004785F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50E6C9D22A8A220E004785F8 /* Debug */ = {
@@ -459,6 +556,62 @@
 			};
 			name = Release;
 		};
+		50E6CA012A8A28B1004785F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9F656U6UX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheMenuPopOverDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BotyThieng.TheMenuPopOverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E6CA022A8A28B1004785F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9F656U6UX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheMenuPopOverDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BotyThieng.TheMenuPopOverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,6 +638,15 @@
 			buildConfigurations = (
 				50E6C9D82A8A220E004785F8 /* Debug */,
 				50E6C9D92A8A220E004785F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E6CA032A8A28B1004785F8 /* Build configuration list for PBXNativeTarget "TheMenuPopOverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E6CA012A8A28B1004785F8 /* Debug */,
+				50E6CA022A8A28B1004785F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
