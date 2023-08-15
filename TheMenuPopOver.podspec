@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TheMenuPopOver"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Swift version of TheMenuPopOver. A pop over menu for iOS which is maybe the easiest one to use, highly customizable."
   spec.description  = <<-DESC
           `TheMenuPopOver` is a pop over menu for `iOS` which is maybe the easiest one to use, supports both portrait and landscape. It can show from any `UIView`, any `UIBarButtonItem` and any `CGRect`. Simplest APIs, enable you to change the style in one line of code.
