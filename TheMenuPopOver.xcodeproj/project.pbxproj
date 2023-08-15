@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502235B42A8B0EFC0077155C /* FTCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502235B32A8B0EFC0077155C /* FTCellConfiguration.swift */; };
 		50E6C9C52A8A220E004785F8 /* TheMenuPopOver.docc in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9C42A8A220E004785F8 /* TheMenuPopOver.docc */; };
 		50E6C9CB2A8A220E004785F8 /* TheMenuPopOver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6C9C02A8A220E004785F8 /* TheMenuPopOver.framework */; };
 		50E6C9D02A8A220E004785F8 /* TheMenuPopOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E6C9CF2A8A220E004785F8 /* TheMenuPopOverTests.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		502235B32A8B0EFC0077155C /* FTCellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTCellConfiguration.swift; sourceTree = "<group>"; };
 		50E6C9C02A8A220E004785F8 /* TheMenuPopOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheMenuPopOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E6C9C32A8A220E004785F8 /* TheMenuPopOver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheMenuPopOver.h; sourceTree = "<group>"; };
 		50E6C9C42A8A220E004785F8 /* TheMenuPopOver.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TheMenuPopOver.docc; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				50E6C9C32A8A220E004785F8 /* TheMenuPopOver.h */,
 				50E6C9C42A8A220E004785F8 /* TheMenuPopOver.docc */,
 				50E6C9DA2A8A2262004785F8 /* FT+Extension.swift */,
+				502235B32A8B0EFC0077155C /* FTCellConfiguration.swift */,
 				50E6C9DE2A8A229E004785F8 /* FTConfiguration.swift */,
 				50E6C9E02A8A22D4004785F8 /* FTConstants.swift */,
 				50E6C9E22A8A22F0004785F8 /* FTPopOverMenu.swift */,
@@ -259,6 +262,7 @@
 				50E6C9C52A8A220E004785F8 /* TheMenuPopOver.docc in Sources */,
 				50E6C9E32A8A22F0004785F8 /* FTPopOverMenu.swift in Sources */,
 				50E6C9DB2A8A2262004785F8 /* FT+Extension.swift in Sources */,
+				502235B42A8B0EFC0077155C /* FTCellConfiguration.swift in Sources */,
 				50E6C9E92A8A2340004785F8 /* UIControl+Point.swift in Sources */,
 				50E6C9EB2A8A2397004785F8 /* UIScreen+Frame.swift in Sources */,
 				50E6C9E72A8A232B004785F8 /* FTPopOverMenuModel.swift in Sources */,
