@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
                    DESC
   spec.author       = { "Boty Thieng" => "oudomboty27@gmail.com" }
   spec.homepage     = "https://github.com/BotyThieng/TheMenuPopOver"
-  # spec.screenshots  = "https://raw.githubusercontent.com/liufengting/FTResourceRepo/master/Resource/FTPopOverMenu/screenshots.gif"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/BotyThieng/TheMenuPopOver.git", :tag => "#{spec.version}" }
